@@ -109,8 +109,6 @@ registry.registerPath({
      extension [RFC 7636 §4.5](https://www.rfc-editor.org/rfc/rfc7636.html#section-4.5);
    * Client Credentials Grant [RFC 6749 §4.4](https://www.rfc-editor.org/rfc/rfc6749.html#section-4.4);
    * Token Refresh [RFC 6749 §6](https://www.rfc-editor.org/rfc/rfc6749.html#section-6);`,
-  //security: [{ [ClientCredentialsBasicAuth.name]: [] }],
-  security: [],
   request: {
     body: {
       description: "IDK some stuff",
