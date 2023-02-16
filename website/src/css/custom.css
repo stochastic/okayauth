@@ -31,13 +31,12 @@
 }
 
 img.big-logo {
-  /* background-image: url(/img/logolarge.png); */
   width: 30rem;
   padding: 0rem 0 0 0;
 }
 
 [data-theme="dark"] img.big-logo {
-  content: url(/img/logo-darklarge.png);
+  content: url(/img/logo-dark-large.png);
 }
 
 [data-theme="dark"] .redocusaurus .api-content table tbody tr td div div {
