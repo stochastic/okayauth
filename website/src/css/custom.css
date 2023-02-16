@@ -1,0 +1,53 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+:root {
+  --ifm-color-primary: #7f2e85;
+  --ifm-color-primary-dark: #722978;
+  --ifm-color-primary-darker: #6c2771;
+  --ifm-color-primary-darkest: #59205d;
+  --ifm-color-primary-light: #8c3392;
+  --ifm-color-primary-lighter: #923599;
+  --ifm-color-primary-lightest: #a53cad;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-color-primary: #ff52f1;
+  --ifm-color-primary-dark: #ff30ee;
+  --ifm-color-primary-darker: #ff1fed;
+  --ifm-color-primary-darkest: #ec00d9;
+  --ifm-color-primary-light: #ff74f4;
+  --ifm-color-primary-lighter: #ff85f5;
+  --ifm-color-primary-lightest: #ffb7f9;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+img.big-logo {
+  /* background-image: url(/img/logolarge.png); */
+  width: 30rem;
+  padding: 0rem 0 0 0;
+}
+
+[data-theme="dark"] img.big-logo {
+  content: url(/img/logo-darklarge.png);
+}
+
+[data-theme="dark"] .redocusaurus .api-content table tbody tr td div div {
+  background-color: var(--ifm-background-color) !important;
+}
+
+[data-theme="dark"] .redocusaurus .api-content table tbody tr td div div svg {
+  stroke: var(--ifm-color-emphasis-1000) !important;
+}
+
+[data-theme="light"] [data-rttabs="true"] pre {
+  background-color: inherit;
+}

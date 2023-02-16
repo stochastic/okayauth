@@ -1,0 +1,23 @@
+extends:
+  - recommended
+
+rules:
+  no-unused-components: error
+
+  # A sample custom rule. Read more about rules: https://redocly.com/docs/cli/rules/
+  assert/operation-description:
+    subject: 
+      type: Operation
+      property: description
+    assertions:
+      defined: true
+      minLength: 30
+
+# theme:
+#   # See https://redocly.com/docs/api-reference-docs/configuration/functionality/
+#   openapi:
+#     # See https://redocly.com/docs/api-reference-docs/configuration/theming/
+#     theme:
+#       colors:
+#         primary:
+#           main: '#ff52f1'    
